@@ -23,6 +23,8 @@ namespace BinarySearchTree
             binarySearchTree.InsertData(67);
             binarySearchTree.Display(binarySearchTree.GetRoot());
             Console.WriteLine("Count of elements in Binary search tree is: " + binarySearchTree.GetSize());
+            bool result = binarySearchTree.SearchTree(63, binarySearchTree.GetRoot());
+            Console.WriteLine(result);
         }
     }
 }
